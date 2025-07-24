@@ -1,0 +1,5 @@
+CREATE TABLE product(
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    price BIGINT NOT NULL
+);
